@@ -636,7 +636,7 @@ channel.send(embed)
     // Dashboard endpoint.
     app.get("/dashboard", checkAuth, (req, res) => {
 
-      const server = client.guilds.cache.get('758566519440408597');
+      const server = client.guilds.cache.get('894661958979178539');
       let user = server.members.cache.has(req.user.id);
 
 
