@@ -1,7 +1,7 @@
 module.exports = {
  "verification": "",
  "description": "Pogy is a multi-purpose discord bot ready to skill up and boost up your Discord server!",
- "domain": "", // domain
+ "domain": "https://r2kbot.herokuapp.com/", // domain
  "google_analitics": "", // google analitics
  "token": process.env.TOKEN,
  "https":"https://", // leave as is
