@@ -1,13 +1,12 @@
+
 {
-  "main": "shard.js",
+  "name": "pogy",
+  "version": "5.0.0",
+  "description": "A sample Node.js app using Express 4",
+  "author": "𝐄𝐥𝐦𝐫𝐚𝐛𝐞𝐭",
+  "main": "index.js",
   "scripts": {
-    "node": "node shard.js",
-    "dev": "nodemon shard.js",
-    "lavalink": "java -jar Lavalink.jar"
-  },
-  "devDependencies": {
-    "eslint": "^7.6.0",
-    "eslint-config-tesseract": "^0.0.3"
+    "start": "node index.js"
   },
   "dependencies": {
     "@top-gg/sdk": "^3.0.8",
@@ -21,11 +20,14 @@
     "common-tags": "^1.8.0",
     "connect-mongo": "^4.4.1",
     "crypto": "^1.0.1",
-    "datadog-metrics": "^0.8.2",
-    "date-and-time": "^0.14.2",
+    "datadog-metrics": "^0.9.3",
+    "date-and-time": "^1.0.1",
     "dblapi.js": "^2.4.1",
+    "discord-together": "^1.1.1",
     "discord-chatbot": "^2.0.2",
-    "discord.js": "^12.5.1",
+    "discord-buttons": "^4.0.0",
+    "discord-giveaways": "^4.5.1",
+    "discord.js": "^12.5.3",
     "discord.js-light": "^3.5.9",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
@@ -50,12 +52,13 @@
     "parse-ms": "^2.1.0",
     "passport": "^0.4.1",
     "passport-discord": "^0.1.4",
-    "random": "^2.2.0",
+    "random": "^3.0.6",
     "random-email": "^1.0.3",
     "randomstrings": "0.0.2",
     "randostrings": "^0.1.6",
     "request": "^2.88.2",
     "request-promise-native": "^1.0.9",
+    "simply-djs": "1.0.105",
     "shortid": "^2.2.16",
     "snekfetch": "^4.0.4",
     "statcord.js": "^3.1.7",
@@ -69,10 +72,22 @@
     "zalgo": "0.0.1",
     "zalgolize": "^1.2.4"
   },
-  "name": "pogy",
-  "version": "1.0.0",
-  "author": "",
-  "license": "ISC",
-  "keywords": [],
-  "description": ""
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "eslint-config-tesseract": "^0.0.3"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "you link github"
+  },
+  "homepage": "your domian",
+  "keywords": [
+    "node",
+    "discord",
+    "heroku"
+  ],
+  "license": "MIT"
 }
