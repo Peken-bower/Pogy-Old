@@ -79,7 +79,7 @@ const secret = config.secret;
     passport.use(new Strategy({
       clientID: `${clientID}`,
       clientSecret: `${secret}`,
-      callbackURL: `${domain}/callback`,
+      callbackURL: `https://r2kbot.herokuapp.com/callback`,
       scope: ["identify", "guilds"]
     },
       (accessToken, refreshToken, profile, done) => {
